@@ -1,0 +1,32 @@
+{
+  "name": "bz2trello",
+  "version": "0.0.0",
+  "description": "Bugzilla 2 Trello is a utility to fill your Trello board with bugzilla data",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -u tdd test/unit/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arcturus/bz2trello.git"
+  },
+  "keywords": [
+    "bugzilla",
+    "trello"
+  ],
+  "author": "Francisco Jordano <francisco@jordano.es>",
+  "license": "MPL",
+  "bugs": {
+    "url": "https://github.com/arcturus/bz2trello/issues"
+  },
+  "homepage": "https://github.com/arcturus/bz2trello",
+  "dependencies": {
+    "bz": "^1.0.0-alpha.5",
+    "promise": "^6.0.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "chai-as-promised": "^4.1.1",
+    "mocha": "^1.21.4"
+  }
+}
