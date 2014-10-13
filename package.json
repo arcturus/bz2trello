@@ -22,11 +22,15 @@
   "homepage": "https://github.com/arcturus/bz2trello",
   "dependencies": {
     "bz": "^1.0.0-alpha.5",
+    "node-trello": "^1.0.0",
     "promise": "^6.0.0"
   },
   "devDependencies": {
+    "browserify": "^6.0.3",
     "chai": "^1.9.2",
     "chai-as-promised": "^4.1.1",
-    "mocha": "^1.21.4"
+    "mocha": "^1.21.4",
+    "proxyquire": "^1.0.1",
+    "sinon": "^1.10.3"
   }
 }
