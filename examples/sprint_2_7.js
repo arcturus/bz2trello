@@ -9,7 +9,7 @@ var boardId = '5447bb303fc7ce5ba115fef1';
 var token = '<your_token_goes_here>';
 var key = '<your_key_goes_here>';
 
-var bz2trello = require('./lib/bz2trello.js'); bz2trello.sync({
+var bz2trello = require('../lib/bz2trello.js'); bz2trello.sync({
   'bz': {
     'search':{
       'product':'Firefox OS',
